@@ -25,7 +25,9 @@ SECRET_KEY = 'dliges6&ujwfdt2-np%63w80jr&6ho_ush+jb0$07r-&^nh8#5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['proosi.pythonanywhere.com']
+ALLOWED_HOSTS = [
+        #'proosi.pythonanywhere.com',
+    ]
 
 
 # Application definition

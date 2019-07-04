@@ -1,6 +1,9 @@
 <!-- posts/home.html -->
+{% extends 'post/base.html' %}
 
-<h1>Aplikacja POSTS - zmiana</h1>
+
+{% block content %}
+<h1>Serwis</h1>
 
 <ul>
   {% for post in object_list %}
@@ -9,3 +12,4 @@
     </li>
   {% endfor %}
 </ul>
+{% endblock %}
